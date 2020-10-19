@@ -1,0 +1,88 @@
+@import "_variables.scss" , "_mixins.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+} 
+
+.home {
+    height: 100vh;
+    background-image: $gradient;
+
+    .la-plus {
+        font-size: 2rem;
+        margin: 1.5% 0 0 1.5%;
+    }
+
+    .number-catcher {
+        @extend %number-catcher;
+}
+    h1 {
+        @include shared-headlines(13rem)
+    }
+
+    h2 {
+        @include shared-headlines(5rem)
+    }
+
+    .icons {
+        width: 90%;
+        display: flex;
+        justify-content: flex-end;
+        font-size: 2rem;
+        letter-spacing: 1rem;
+    }
+
+}
+
+.about {
+    @extend %sections-flex;
+
+    .flex-text {
+        width: 30%;
+
+        h4 {
+            font-size: 2.1rem;
+        }
+
+        h4, p {
+        @extend %headline-text-flex;
+
+    }
+    }
+}
+
+.services {
+    @extend %sections-flex;
+
+    .flex-text {
+        width: 30%;
+
+        h4 {
+            font-size: 2.1rem;
+        }
+
+        h4, p {
+        @extend %headline-text-flex;
+
+    }
+    }
+}
+
+
+a {
+    @extend %button;
+}
+
+footer {
+    background-image: $gradient;
+    
+    p {
+        text-align: center;
+        padding: 2% 0;
+        color: #fff;
+        font-family: Helvetica, sans-serif;
+    }
+}

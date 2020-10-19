@@ -1,0 +1,8 @@
+@mixin shared-headlines($fontsize) {
+    font-family: Helvetica, sans-serif;
+    font-size: $fontsize;
+    color: #fff;
+    text-align: center;
+    letter-spacing: .3rem;
+    
+}

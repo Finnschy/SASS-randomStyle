@@ -1,0 +1,106 @@
+.home .number-catcher {
+  height: 10rem;
+  width: 10rem;
+  background: #f9c747;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  color: #fff;
+  font-family: Helvetica, sans-serif;
+  font-size: 5rem;
+  position: relative;
+  top: 10%;
+  left: 80%;
+}
+
+.services, .about {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5% 0;
+}
+
+.services .flex-text h4, .services .flex-text p, .about .flex-text h4, .about .flex-text p {
+  width: 80%;
+  text-align: justify;
+  margin: 0 auto;
+  padding-bottom: 10%;
+  font-family: Helvetica, sans-serif;
+}
+
+a {
+  text-align: center;
+  display: inline-block;
+  padding: 5% 0;
+  width: 100%;
+  background: #f9c747;
+  color: #fff;
+  text-decoration: none;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.home {
+  height: 100vh;
+  background-image: linear-gradient(50deg, #f9c747 12.5%, #ee5d5d 12.5%, #ee5d5d 25%, #bb51f8 25%, #bb51f8 37.5%, #69f2fb 37.5%, #69f2fb 50%, #f9c747 50%, #f9c747 62.5%, #ee5d5d 62.5%, #ee5d5d 75%, #bb51f8 75%, #bb51f8 87.5%, #69f2fb 87.5%, #69f2fb 100%);
+}
+.home .la-plus {
+  font-size: 2rem;
+  margin: 1.5% 0 0 1.5%;
+}
+.home h1 {
+  font-family: Helvetica, sans-serif;
+  font-size: 13rem;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 0.3rem;
+}
+.home h2 {
+  font-family: Helvetica, sans-serif;
+  font-size: 5rem;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 0.3rem;
+}
+.home .icons {
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 2rem;
+  letter-spacing: 1rem;
+}
+
+.about .flex-text {
+  width: 30%;
+}
+.about .flex-text h4 {
+  font-size: 2.1rem;
+}
+.services .flex-text {
+  width: 30%;
+}
+.services .flex-text h4 {
+  font-size: 2.1rem;
+}
+footer {
+  background-image: linear-gradient(50deg, #f9c747 12.5%, #ee5d5d 12.5%, #ee5d5d 25%, #bb51f8 25%, #bb51f8 37.5%, #69f2fb 37.5%, #69f2fb 50%, #f9c747 50%, #f9c747 62.5%, #ee5d5d 62.5%, #ee5d5d 75%, #bb51f8 75%, #bb51f8 87.5%, #69f2fb 87.5%, #69f2fb 100%);
+}
+footer p {
+  text-align: center;
+  padding: 2% 0;
+  color: #fff;
+  font-family: Helvetica, sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */

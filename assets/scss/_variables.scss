@@ -1,0 +1,54 @@
+$gradient-red: #ee5d5d;
+$gradient-blue: #69f2fb ;
+$gradient-lila: #bb51f8;
+$gradient-yellow: #f9c747;
+$gradient: linear-gradient(50deg, #f9c747 12.50%, #ee5d5d 12.50%, #ee5d5d 25%, #bb51f8 25%, #bb51f8 37.50%, #69f2fb 37.50%, #69f2fb 50%, #f9c747 50%, #f9c747 62.50%, #ee5d5d 62.50%, #ee5d5d 75%, #bb51f8 75%, #bb51f8 87.50%, #69f2fb 87.50%, #69f2fb 100%);
+
+%number-catcher {
+    height: 10rem;
+    width: 10rem;
+    background: $gradient-yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    color: #fff;
+    font-family: Helvetica, sans-serif;
+    font-size: 5rem;
+    position: relative;
+    top: 10%;
+    left: 80%;
+}
+
+
+%sections-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5% 0;
+}
+
+%headline-text-flex {
+    width: 80%;
+    text-align: justify;
+    margin: 0 auto;
+    padding-bottom: 10%;
+    font-family: Helvetica, sans-serif;
+}
+
+%button {
+    text-align: center;
+    display: inline-block;
+    padding: 5% 0;
+    width: 100%;
+    background: $gradient-yellow;
+    color: #fff;
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    font-size: 1.5rem;
+    
+}
